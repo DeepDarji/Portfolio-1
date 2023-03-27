@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="Eng" class="page">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<meta name="theme-color" content="#111111">
+	<meta name="description" content="Author: Deep Darji, Category: Portfolio, works, web developer">
+	<title>Deep Darji Portfolio</title>
+	<link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Raleway-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script defer="defer" src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+	<div class="site-container">
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__container container">
+					<nav class="nav" title="Главное меню" data-menu>
+						<ul class="header__list nav__list list-reset">
+							<li class="header__item nav__item"><a href="https://deepdarji.tk/"
+									class="header__link header__link-go" target="_blank">Go Club</a></li>
+							<li class="header__item nav__item"><a data-goto=".hero" href="#"
+									class="header__link nav__link" data-menu-item>Main</a></li>
+							<li class="header__item nav__item"><a data-goto=".about" href="#"
+									class="header__link nav__link" data-menu-item>About</a></li>
+							<li class="header__item nav__item"><a data-goto=".skills" href="#"
+									class="header__link nav__link" data-menu-item>Skills</a></li>
+							<li class="header__item nav__item"><a data-goto=".portfolio" href="#"
+									class="header__link nav__link" data-menu-item>Portfolio</a></li>
+							<li class="header__item nav__item"><a data-goto=".contact" href="#"
+									class="header__link nav__link" data-menu-item>Contact</a></li>
+						</ul>
+					</nav><button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger><span
+							class="burger__line"></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero section" id="hero">
+				<div class="hero__bg">
+					<picture>
+						<source srcset="img/hero2.webp" type="image/webp"><img src="img/hero2.jpg" class="hero__bg-img"
+							width="1920" height="1080" alt="фон" aria-label="hidden">
+					</picture>
+				</div>
+				<div class="hero__container container" id="container">
+					<div class="hero__box">
+						<div class="hero__content">
+							<h1 class="hero__title">Deep Darji</h1>
+							<p class="hero__descr">Programmer</p><a data-goto=".portfolio" href="#"
+								class="hero__link btn nav__link"><span>View Works</span></a>
+						</div>
+						<ul class="hero__sci sci list-reset">
+							<li><a href="mailto:darjideep74@gmail.com" target="_blank" class="hero__item link-sci"
+									aria-label="кнопка email"><span>darjideep74@gmail.com</span> <svg width="56"
+										height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_12_150)">
+											<path
+												d="M51.0693 13.9256C50.9662 13.7874 50.8369 13.6708 50.6887 13.5826C50.5406 13.4944 50.3765 13.4362 50.2058 13.4114C50.0352 13.3867 49.8613 13.3957 49.6942 13.4382C49.5271 13.4806 49.3699 13.5556 49.2318 13.6587L28.0612 29.4612C27.9854 29.518 27.8933 29.5487 27.7987 29.5487C27.704 29.5487 27.6119 29.518 27.5362 29.4612L6.78116 13.5887C6.64413 13.4842 6.48785 13.4076 6.32124 13.3635C6.15463 13.3193 5.98095 13.3084 5.81012 13.3313C5.63929 13.3543 5.47465 13.4107 5.32561 13.4972C5.17657 13.5838 5.04604 13.6989 4.94147 13.8359C4.83691 13.973 4.76035 14.1292 4.71619 14.2959C4.67202 14.4625 4.6611 14.6361 4.68405 14.807C4.70701 14.9778 4.76338 15.1424 4.84996 15.2915C4.93654 15.4405 5.05163 15.5711 5.18866 15.6756L21.5074 28.1575L5.36803 40.32C5.229 40.4237 5.11175 40.5538 5.02298 40.7028C4.93421 40.8518 4.87566 41.0168 4.85068 41.1885C4.82569 41.3601 4.83476 41.535 4.87736 41.7032C4.91997 41.8713 4.99527 42.0294 5.09897 42.1684C5.20267 42.3075 5.33275 42.4247 5.48176 42.5135C5.63078 42.6023 5.79582 42.6608 5.96747 42.6858C6.13911 42.7108 6.31399 42.7017 6.48213 42.6591C6.65027 42.6165 6.80837 42.5412 6.94741 42.4375L23.673 29.8112L25.9393 31.5612C26.4677 31.9657 27.1135 32.1871 27.7789 32.1918C28.4444 32.1966 29.0933 31.9844 29.6274 31.5875L32.0074 29.8112L48.9299 42.4375C49.0681 42.5406 49.2252 42.6155 49.3923 42.6579C49.5595 42.7003 49.7333 42.7094 49.9039 42.6846C50.0746 42.6598 50.2386 42.6017 50.3868 42.5135C50.5349 42.4253 50.6643 42.3088 50.7674 42.1706C50.8705 42.0324 50.9454 41.8753 50.9878 41.7082C51.0302 41.5411 51.0393 41.3672 51.0145 41.1966C50.9897 41.026 50.9316 40.8619 50.8434 40.7137C50.7552 40.5656 50.6387 40.4363 50.5005 40.3331L34.1993 28.1531L50.8024 15.75C51.0778 15.542 51.2602 15.234 51.3101 14.8926C51.3601 14.5511 51.2736 14.2037 51.0693 13.9256Z" />
+											<path
+												d="M49.4375 8.3125H6.5625C4.82202 8.3125 3.15282 9.0039 1.92211 10.2346C0.691404 11.4653 0 13.1345 0 14.875L0 41.125C0 42.8655 0.691404 44.5347 1.92211 45.7654C3.15282 46.9961 4.82202 47.6875 6.5625 47.6875H49.4375C51.178 47.6875 52.8472 46.9961 54.0779 45.7654C55.3086 44.5347 56 42.8655 56 41.125V14.875C56 13.1345 55.3086 11.4653 54.0779 10.2346C52.8472 9.0039 51.178 8.3125 49.4375 8.3125ZM53.375 41.125C53.375 42.1693 52.9602 43.1708 52.2217 43.9092C51.4833 44.6477 50.4818 45.0625 49.4375 45.0625H6.5625C5.51821 45.0625 4.51669 44.6477 3.77827 43.9092C3.03984 43.1708 2.625 42.1693 2.625 41.125V14.875C2.625 13.8307 3.03984 12.8292 3.77827 12.0908C4.51669 11.3523 5.51821 10.9375 6.5625 10.9375H49.4375C50.4818 10.9375 51.4833 11.3523 52.2217 12.0908C52.9602 12.8292 53.375 13.8307 53.375 14.875V41.125Z" />
+										</g>
+										<defs>
+											<clipPath id="clip0_12_150">
+												<rect width="56" height="56" />
+											</clipPath>
+										</defs>
+									</svg></a></li>
+							<li><a href="https://wa.me/919173612038" target="_blank" class="hero__item link-sci"
+									aria-label="кнопка телефон"><span>WhatsApp</span> <svg width="45" height="45"
+										viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M29.6481 45C29.6481 45 33.7327 45 33.7327 40.9093V4.09074C33.7326 0 29.6481 0 29.6481 0H15.3519C15.3519 0 11.2673 0 11.2673 4.09074V40.9093C11.2674 45 15.3519 45 15.3519 45H29.6481ZM22.5 43.2967C21.3727 43.2967 20.4577 42.3817 20.4577 41.2544C20.4577 40.127 21.3727 39.2122 22.5 39.2122C23.6274 39.2122 24.5423 40.1271 24.5423 41.2544C24.5423 42.3818 23.6274 43.2967 22.5 43.2967ZM19.4365 2.49364C19.4365 2.2404 19.5571 2.04227 19.7081 2.04227H25.2918C25.4409 2.04227 25.5634 2.24449 25.5634 2.49364V2.61415C25.5634 2.86739 25.4409 3.06551 25.2918 3.06551H19.7081C19.559 3.06551 19.4365 2.8633 19.4365 2.61415V2.49364ZM13.3097 5.10574H31.6903V37.7825H13.3097V5.10574Z" />
+									</svg></a></li>
+							<li><a href="https://t.me/deepdarji" target="_blank" class="hero__item link-sci"
+									aria-label="кнопка телеграм"><span>Telegram</span> <svg width="45" height="45"
+										viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_12_153)">
+											<path
+												d="M41.3469 3.99222L1.47896 19.4457C-0.125377 20.1653 -0.66802 21.6066 1.09112 22.3887L11.319 25.6558L36.0486 10.2934C37.3988 9.32898 38.7812 9.58617 37.5917 10.6471L16.3523 29.9773L15.6851 38.1578C16.3031 39.4209 17.4346 39.4268 18.1564 38.799L24.0326 33.2101L34.0965 40.7851C36.4339 42.1761 37.7058 41.2784 38.2086 38.729L44.8097 7.31079C45.4951 4.17257 44.3263 2.78988 41.3469 3.99222Z" />
+										</g>
+										<defs>
+											<clipPath id="clip0_12_153">
+												<rect width="45" height="45" fill="white" />
+											</clipPath>
+										</defs>
+									</svg></a></li>
+							<li><a href="https://github.com/deep-darji" target="_blank" class="hero__item link-sci"
+									aria-label="кнопка гитхаб"><span>Github</span> <svg width="56" height="56"
+										viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_12_155)">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M28.0254 7.30188C16.4141 7.30188 7 16.716 7 28.3308C7 37.6206 13.0244 45.5018 21.3806 48.2834C22.4324 48.4759 22.8156 47.8266 22.8156 47.2684C22.8156 46.7705 22.7981 45.4475 22.7876 43.6931C16.9382 44.9636 15.7045 40.8739 15.7045 40.8739C14.7481 38.4458 13.3691 37.7991 13.3691 37.7991C11.4599 36.4936 13.5135 36.5199 13.5135 36.5199C15.624 36.6695 16.7344 38.6873 16.7344 38.6873C18.6104 41.9003 21.6562 40.9719 22.8541 40.4346C23.0457 39.0758 23.5874 38.1491 24.1894 37.6233C19.5204 37.093 14.6108 35.2879 14.6108 27.2309C14.6108 24.9358 15.4306 23.058 16.7755 21.588C16.5594 21.056 15.8375 18.9184 16.9811 16.023C16.9811 16.023 18.7469 15.4578 22.764 18.179C24.4414 17.7126 26.2404 17.479 28.028 17.4711C29.8139 17.479 31.6129 17.7126 33.2929 18.179C37.3074 15.4578 39.0696 16.023 39.0696 16.023C40.2168 18.9184 39.4949 21.056 39.2787 21.588C40.6263 23.058 41.4409 24.9358 41.4409 27.2309C41.4409 35.3089 36.5234 37.086 31.8386 37.6066C32.5946 38.2559 33.2666 39.5386 33.2666 41.5013C33.2666 44.3118 33.2413 46.5798 33.2413 47.2684C33.2413 47.8319 33.6192 48.4864 34.6867 48.2808C43.036 45.4939 49.0551 37.618 49.0551 28.3308C49.0551 16.716 39.6401 7.30188 28.0254 7.30188Z" />
+										</g>
+										<defs>
+											<clipPath id="clip0_12_155">
+												<rect width="56" height="56" />
+											</clipPath>
+										</defs>
+									</svg></a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="about section" id="about">
+				<div class="about__container container">
+					<h2 class="about__title title">About</h2>
+					<p class="about__subtitle">My Layout:</p>
+					<ul class="about__list list-reset">
+						<li class="about__cart">
+							<div class="about__image"><img src="img/about/speed.svg" alt="быстро"></div>
+							<div class="about__cart-box">
+								<h3 class="about__cart-title">Fast</h3>
+								<div class="about__box-text">
+									<p class="about__descr">Fast load times and lag-free interaction is my top priority.
+										Optimization of all media: </p>
+									<p class="about__descr">90+ on PageSpeed ​​for mobile and 95+ for desktop.</p>
+								</div>
+							</div>
+						</li>
+						<li class="about__cart">
+							<div class="about__image"><img src="img/about/resp.svg" alt="отзывчивый"></div>
+							<div class="about__cart-box">
+								<h3 class="about__cart-title">Responsive</h3>
+								<div class="about__box-text">
+									<p class="about__descr">My layouts will work on any device, big or small.
+										маленьком.</p>
+									<p class="about__descr">On all types of gadgets:</p>
+									<p class="about__descr">Ipad, Iphone, Android.</p>
+								</div>
+							</div>
+						</li>
+						<li class="about__cart">
+							<div class="about__image"><img src="img/about/ui.svg" alt="ui"></div>
+							<div class="about__cart-box">
+								<h3 class="about__cart-title">Intuitive</h3>
+								<div class="about__box-text">
+									<p class="about__descr">Strong preference for easy-to-use, intuitive UX/UI.</p>
+									<p class="about__descr">All the most modern and latest developments.</p>
+								</div>
+							</div>
+						</li>
+						<li class="about__cart">
+							<div class="about__image"><img src="img/about/rocket.svg" alt="динамичный"></div>
+							<div class="about__cart-box">
+								<h3 class="about__cart-title">dynamic</h3>
+								<div class="about__box-text">
+									<p class="about__descr">Websites don't have to be static, I like to make pages come
+										alive.</p>
+									<p class="about__descr">Not a single site can do without animation in our time.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<ul class="about__success list-reset">
+						<li class="about__success-item"><span>2+ </span>years of practice</li>
+						<li class="about__success-item"><span>29+ </span>projects</li>
+					</ul>
+				</div>
+			</section>
+			<section class="skills section" id="skills">
+				<div class="skills__container container">
+					<h2 class="skills__title title">Skills</h2>
+					<ul class="skills__list skills__list-main list-reset">
+						<li class="skills__item">
+							<div class="skills__cart">
+								<div class="skills__image"><img src="img/skills/html.svg" alt="html"></div>
+								<ul class="skills__rate list-reset">
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+								</ul>
+							</div>
+						</li>
+						<li class="skills__item">
+							<div class="skills__cart">
+								<div class="skills__image"><img src="img/skills/css.svg" alt="css"></div>
+								<ul class="skills__rate list-reset">
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+								</ul>
+							</div>
+						</li>
+						<li class="skills__item">
+							<div class="skills__cart">
+								<div class="skills__image"><img src="img/skills/js.svg" alt="js"></div>
+								<ul class="skills__rate list-reset">
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+											<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+										</svg></li>
+									<li class="skills__star"><svg class="skills__star-stroke" x="0px" y="0px"
+											width="612px" height="612px" viewBox="0 0 612 612"
+											style="enable-background: new 0 0 612 612">
+											<g>
+												<g>
+													<g>
+														<path d="M612,234.167L400.898,201.96L306,0l-94.898,201.96L0,234.167l152.713,156.366L116.567,612L306,507.387L495.434,612
+												l-36.166-221.468L612,234.167z M306,463.017l-142.08,79.655l27.119-160.727L68.716,257.078l165.45-21.516L306,82.467
+												l71.184,153.096l164.896,23.39L420.96,382.538l25.322,160.727L306,463.017z" />
+													</g>
+												</g>
+											</g>
+										</svg></li>
+								</ul>
+							</div>
+						</li><!-- <li class="skills__item">
+				<div class="skills__cart">
+					<div class="skills__image">
+						<img src="img/skills/react.svg" alt="react">
+					</div>
+					<ul class="skills__rate list-reset">
+						<li class="skills__star">
+							<svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+								<polygon style="fill:#FAC917;" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+							</svg>
+						</li>
+						<li class="skills__star">
+							<svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+								<polygon style="fill:#FAC917;" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+							</svg>
+						</li>
+						<li class="skills__star">
+							<svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+								<polygon style="fill:#FAC917;" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+							</svg>
+						</li>
+						<li class="skills__star">
+							<svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+								<polygon style="fill:#FAC917;" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+							</svg>
+						</li>
+						<li class="skills__star">
+							<svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+								<polygon style="fill:#FAC917;" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+									81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+							</svg>
+						</li>
+					</ul>
+				</div>
+			</li> -->
+					</ul>
+					<ul class="skills__list skills__list-sup list-reset">
+						<li class="skills__boxitem-sup">
+							<div class="skills__item-sup"><span>Figma</span></div>
+							<ul class="skills__rate list-reset">
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+							</ul>
+						</li>
+						<li class="skills__boxitem-sup">
+							<div class="skills__item-sup"><span>БЭМ</span></div>
+							<ul class="skills__rate list-reset">
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+							</ul>
+						</li>
+						<li class="skills__boxitem-sup">
+							<div class="skills__item-sup"><span>Flex Grid</span></div>
+							<ul class="skills__rate list-reset">
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+							</ul>
+						</li>
+						<li class="skills__boxitem-sup">
+							<div class="skills__item-sup"><span>Pixel perfect</span></div>
+							<ul class="skills__rate list-reset">
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								 81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								 81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								 81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								 81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								 81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+							</ul>
+						</li>
+						<li class="skills__boxitem-sup">
+							<div class="skills__item-sup"><span>Gulp</span></div>
+							<ul class="skills__rate list-reset">
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+							</ul>
+						</li>
+						<li class="skills__boxitem-sup">
+							<div class="skills__item-sup"><span>Git</span></div>
+							<ul class="skills__rate list-reset">
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+								<li class="skills__star-sup"><svg x="0px" y="0px" viewBox="0 0 426.667 426.667">
+										<polygon style="fill: #fac917" points="213.333,10.441 279.249,144.017 426.667,165.436 320,269.41 345.173,416.226 213.333,346.91 
+								81.485,416.226 106.667,269.41 0,165.436 147.409,144.017 " />
+									</svg></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="portfolio section" id="portfolio">
+				<div class="portfolio__container container">
+					<h2 class="portfolio__title title">Portfolio</h2>
+					<ul class="portfolio__content list-reset">
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/eurokran.webp" type="image/webp"><img loading="lazy"
+											src="img/work/eurokran.jpg" width="300" height="300" alt="Eurokran">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">EUROKRAN</h3>
+										<p class="portfolio__descr-card">Corporate website</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="26"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/Berryland.webp" type="image/webp"><img loading="lazy"
+											src="img/work/Berryland.jpg" width="300" height="300" alt="Berryland">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Berryland</h3>
+										<p class="portfolio__descr-card">Internet shop</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="14"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/go-club.webp" type="image/webp"><img loading="lazy"
+											src="img/work/go-club.png" width="300" height="300" alt="go-club">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Go Club</h3>
+										<p class="portfolio__descr-card">Landing</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="30"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/goldystore.webp" type="image/webp"><img loading="lazy"
+											src="img/work/goldystore.jpg" width="300" height="300" alt="goldystore">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">GoldyStore</h3>
+										<p class="portfolio__descr-card">online store</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="31"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/megakorm.webp" type="image/webp"><img loading="lazy"
+											src="img/work/megakorm.png" width="300" height="300" alt="megakorm">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Megakorm</h3>
+										<p class="portfolio__descr-card">Corporate website</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="29"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/Tzeezotje.webp" type="image/webp"><img loading="lazy"
+											src="img/work/Tzeezotje.jpg" width="300" height="300" alt="Tzeezotje">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Tzeezotje</h3>
+										<p class="portfolio__descr-card">Landing</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="27"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/sportmoda.webp" type="image/webp"><img loading="lazy"
+											src="img/work/sportmoda.jpg" width="300" height="300" alt="sportmoda">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Sportmoda</h3>
+										<p class="portfolio__descr-card">Internet shop</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="25"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/UrbanRacers.webp" type="image/webp"><img loading="lazy"
+											src="img/work/UrbanRacers.jpg" width="300" height="300" alt="Berryland">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Urban Racers</h3>
+										<p class="portfolio__descr-card">Online autotuning store</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset" data-path="24"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+						<li class="portfolio__item">
+							<article class="portfolio__block">
+								<div class="portfolio__image">
+									<picture>
+										<source srcset="img/work/Body-time.webp" type="image/webp"><img loading="lazy"
+											src="img/work/Body-time.jpg" width="300" height="300" alt="Body-time">
+									</picture>
+								</div>
+								<div class="portfolio__box">
+									<div class="portfolio__row">
+										<h3 class="portfolio__title-card">Body-time</h3>
+										<p class="portfolio__descr-card">Landing</p>
+										<p class="portfolio__tech-card">HTML, CSS, JS</p>
+									</div><button class="portfolio__button-card btn btn-reset modal-btn" data-path="1"
+										data-animation="fadeInUp" data-speed="300"><span>To Learn More</span></button>
+								</div>
+							</article>
+						</li>
+					</ul>
+					<div class="portfolio__button btn-box"><button class="show-more btn-reset">Show More</button>
+					</div>
+				</div>
+			</section>
+			<section class="contact section" id="contact">
+				<div class="ticker">
+					<div class="ticker__wrapper">
+						<div class="ticker__item">DEEP DARJI</div>
+						<div class="ticker__item">DEEP DARJI</div>
+						<div class="ticker__item">DEEP DARJI</div>
+						<div class="ticker__item">DEEP DARJI</div>
+						<div class="ticker__item">DEEP DARJI</div>
+					</div>
+				</div>
+				<div class="contact__container container">
+					<h2 class="contact__title title">Contacts</h2>
+					<p class="contact__descr">Have questions or want to work together?</p>
+					<div class="contact__box">
+						<ul class="contact__sci list-reset">
+							<li class="contact__item">
+								<p class="contact__point">Write me a letter:</p><a href="mailto:darjideep74@gmail.com"
+									target="_blank" class="contact__link"><svg width="56" height="56"
+										viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_12_15)">
+											<path
+												d="M51.0693 13.9256C50.9662 13.7874 50.8369 13.6708 50.6887 13.5826C50.5406 13.4944 50.3765 13.4362 50.2058 13.4114C50.0352 13.3867 49.8613 13.3957 49.6942 13.4382C49.5271 13.4806 49.3699 13.5556 49.2318 13.6587L28.0612 29.4612C27.9854 29.518 27.8933 29.5487 27.7987 29.5487C27.704 29.5487 27.6119 29.518 27.5362 29.4612L6.78116 13.5887C6.64413 13.4842 6.48785 13.4076 6.32124 13.3635C6.15463 13.3193 5.98095 13.3084 5.81012 13.3313C5.63929 13.3543 5.47465 13.4107 5.32561 13.4972C5.17657 13.5838 5.04604 13.6989 4.94147 13.8359C4.83691 13.973 4.76035 14.1292 4.71619 14.2959C4.67202 14.4625 4.6611 14.6361 4.68405 14.807C4.70701 14.9778 4.76338 15.1424 4.84996 15.2915C4.93654 15.4405 5.05163 15.5711 5.18866 15.6756L21.5074 28.1575L5.36803 40.32C5.229 40.4237 5.11175 40.5538 5.02298 40.7028C4.93421 40.8518 4.87566 41.0168 4.85068 41.1885C4.82569 41.3601 4.83476 41.535 4.87736 41.7032C4.91997 41.8713 4.99527 42.0294 5.09897 42.1684C5.20267 42.3075 5.33275 42.4247 5.48176 42.5135C5.63078 42.6023 5.79582 42.6608 5.96747 42.6858C6.13911 42.7108 6.31399 42.7017 6.48213 42.6591C6.65027 42.6165 6.80837 42.5412 6.94741 42.4375L23.673 29.8112L25.9393 31.5612C26.4677 31.9657 27.1135 32.1871 27.7789 32.1918C28.4444 32.1966 29.0933 31.9844 29.6274 31.5875L32.0074 29.8112L48.9299 42.4375C49.0681 42.5406 49.2252 42.6155 49.3923 42.6579C49.5595 42.7003 49.7333 42.7094 49.9039 42.6846C50.0746 42.6598 50.2386 42.6017 50.3868 42.5135C50.5349 42.4253 50.6643 42.3088 50.7674 42.1706C50.8705 42.0324 50.9454 41.8753 50.9878 41.7082C51.0302 41.5411 51.0393 41.3672 51.0145 41.1966C50.9897 41.026 50.9316 40.8619 50.8434 40.7137C50.7552 40.5656 50.6387 40.4363 50.5005 40.3331L34.1993 28.1531L50.8024 15.75C51.0778 15.542 51.2602 15.234 51.3101 14.8926C51.3601 14.5511 51.2736 14.2037 51.0693 13.9256Z" />
+											<path
+												d="M49.4375 8.3125H6.5625C4.82202 8.3125 3.15282 9.0039 1.92211 10.2346C0.691404 11.4653 0 13.1345 0 14.875L0 41.125C0 42.8655 0.691404 44.5347 1.92211 45.7654C3.15282 46.9961 4.82202 47.6875 6.5625 47.6875H49.4375C51.178 47.6875 52.8472 46.9961 54.0779 45.7654C55.3086 44.5347 56 42.8655 56 41.125V14.875C56 13.1345 55.3086 11.4653 54.0779 10.2346C52.8472 9.0039 51.178 8.3125 49.4375 8.3125ZM53.375 41.125C53.375 42.1693 52.9602 43.1708 52.2217 43.9092C51.4833 44.6477 50.4818 45.0625 49.4375 45.0625H6.5625C5.51821 45.0625 4.51669 44.6477 3.77827 43.9092C3.03984 43.1708 2.625 42.1693 2.625 41.125V14.875C2.625 13.8307 3.03984 12.8292 3.77827 12.0908C4.51669 11.3523 5.51821 10.9375 6.5625 10.9375H49.4375C50.4818 10.9375 51.4833 11.3523 52.2217 12.0908C52.9602 12.8292 53.375 13.8307 53.375 14.875V41.125Z" />
+										</g>
+										<defs>
+											<clipPath id="clip0_12_15">
+												<rect width="56" height="56" />
+											</clipPath>
+										</defs>
+									</svg> <span>darjideep74@gmail.com</span></a>
+							</li>
+							<li class="contact__item">
+								<p class="contact__point">Write to me on Telegram:</p><a href="https://t.me/deepdarji"
+									target="_blank" class="contact__link"><svg width="45" height="45"
+										viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_12_1533)">
+											<path
+												d="M41.3469 3.99222L1.47896 19.4457C-0.125377 20.1653 -0.66802 21.6066 1.09112 22.3887L11.319 25.6558L36.0486 10.2934C37.3988 9.32898 38.7812 9.58617 37.5917 10.6471L16.3523 29.9773L15.6851 38.1578C16.3031 39.4209 17.4346 39.4268 18.1564 38.799L24.0326 33.2101L34.0965 40.7851C36.4339 42.1761 37.7058 41.2784 38.2086 38.729L44.8097 7.31079C45.4951 4.17257 44.3263 2.78988 41.3469 3.99222Z" />
+										</g>
+										<defs>
+											<clipPath id="clip0_12_1533">
+												<rect width="45" height="45" fill="white" />
+											</clipPath>
+										</defs>
+									</svg> <span>Telegram</span></a>
+							</li>
+							<li class="contact__item">
+								<p class="contact__point">Write to me on WhatsApp:</p><a
+									href="https://wa.me/919173612038" target="_blank" class="contact__link"><svg
+										width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M29.6481 45C29.6481 45 33.7327 45 33.7327 40.9093V4.09074C33.7326 0 29.6481 0 29.6481 0H15.3519C15.3519 0 11.2673 0 11.2673 4.09074V40.9093C11.2674 45 15.3519 45 15.3519 45H29.6481ZM22.5 43.2967C21.3727 43.2967 20.4577 42.3817 20.4577 41.2544C20.4577 40.127 21.3727 39.2122 22.5 39.2122C23.6274 39.2122 24.5423 40.1271 24.5423 41.2544C24.5423 42.3818 23.6274 43.2967 22.5 43.2967ZM19.4365 2.49364C19.4365 2.2404 19.5571 2.04227 19.7081 2.04227H25.2918C25.4409 2.04227 25.5634 2.24449 25.5634 2.49364V2.61415C25.5634 2.86739 25.4409 3.06551 25.2918 3.06551H19.7081C19.559 3.06551 19.4365 2.8633 19.4365 2.61415V2.49364ZM13.3097 5.10574H31.6903V37.7825H13.3097V5.10574Z" />
+									</svg> <span>WhatsApp</span></a>
+							</li>
+							<li class="contact__item">
+								<p class="contact__point">Check out my work on Github:</p><a
+									href="https://github.com/deep-darji" target="_blank" class="contact__link"><svg
+										width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_12_1555)">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M28.0254 7.30188C16.4141 7.30188 7 16.716 7 28.3308C7 37.6206 13.0244 45.5018 21.3806 48.2834C22.4324 48.4759 22.8156 47.8266 22.8156 47.2684C22.8156 46.7705 22.7981 45.4475 22.7876 43.6931C16.9382 44.9636 15.7045 40.8739 15.7045 40.8739C14.7481 38.4458 13.3691 37.7991 13.3691 37.7991C11.4599 36.4936 13.5135 36.5199 13.5135 36.5199C15.624 36.6695 16.7344 38.6873 16.7344 38.6873C18.6104 41.9003 21.6562 40.9719 22.8541 40.4346C23.0457 39.0758 23.5874 38.1491 24.1894 37.6233C19.5204 37.093 14.6108 35.2879 14.6108 27.2309C14.6108 24.9358 15.4306 23.058 16.7755 21.588C16.5594 21.056 15.8375 18.9184 16.9811 16.023C16.9811 16.023 18.7469 15.4578 22.764 18.179C24.4414 17.7126 26.2404 17.479 28.028 17.4711C29.8139 17.479 31.6129 17.7126 33.2929 18.179C37.3074 15.4578 39.0696 16.023 39.0696 16.023C40.2168 18.9184 39.4949 21.056 39.2787 21.588C40.6263 23.058 41.4409 24.9358 41.4409 27.2309C41.4409 35.3089 36.5234 37.086 31.8386 37.6066C32.5946 38.2559 33.2666 39.5386 33.2666 41.5013C33.2666 44.3118 33.2413 46.5798 33.2413 47.2684C33.2413 47.8319 33.6192 48.4864 34.6867 48.2808C43.036 45.4939 49.0551 37.618 49.0551 28.3308C49.0551 16.716 39.6401 7.30188 28.0254 7.30188Z" />
+										</g>
+										<defs>
+											<clipPath id="clip0_12_1555">
+												<rect width="56" height="56" />
+											</clipPath>
+										</defs>
+									</svg> <span>Github</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section><button class="arrow-up btn-reset arrow-up--hide" aria-label="Подняться в начало сайта"><svg
+					height="512px" viewBox="0 0 512 512" width="512px">
+					<path
+						d="M128.4,189.3L233.4,89c5.8-6,13.7-9,22.4-9c8.7,0,16.5,3,22.4,9l105.4,100.3c12.5,11.9,12.5,31.3,0,43.2  c-12.5,11.9-32.7,11.9-45.2,0L288,184.4v217c0,16.9-14.3,30.6-32,30.6c-17.7,0-32-13.7-32-30.6v-217l-50.4,48.2  c-12.5,11.9-32.7,11.9-45.2,0C115.9,220.6,115.9,201.3,128.4,189.3z" />
+				</svg></button>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<p class="footer__copy">© Deep Darji <span id="year"></span></p>
+			</div>
+		</footer>
+
+
+
+		<div class="modal">
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="26"><button
+					class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+				<div class="modal__content"><a href="#" class="modal__image"
+						target="_blank">
+						<picture>
+							<source srcset="img/work/eurokran.webp" type="image/webp"><img loading="lazy"
+								src="img/work/eurokran.jpg" alt="Eurokran">
+						</picture>
+					</a>
+					<div class="modal__box">
+						<div class="modal__row">
+							<h3 class="modal__title">Eurokran</h3>
+							<p class="modal__descr">Corporate website</p>
+							<p class="modal__descr">Rent of special equipment</p>
+						</div><a href="#" class="modal__link" target="_blank"><svg
+								width="15" height="15" viewBox="0 0 15 15">
+								<path
+									d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+							</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="14"><button
+					class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+				<div class="modal__content"><a href="#" class="modal__image"
+						target="_blank">
+						<picture>
+							<source srcset="img/work/Berryland.webp" type="image/webp"><img loading="lazy"
+								src="img/work/Berryland.jpg" alt="Berryland">
+						</picture>
+					</a>
+					<div class="modal__box">
+						<div class="modal__row">
+							<h3 class="modal__title">Berryland</h3>
+							<p class="modal__descr">Internet shop</p>
+							<p class="modal__descr">frozen food</p>
+						</div><a href="#" class="modal__link"
+							target="_blank"><svg width="15" height="15" viewBox="0 0 15 15">
+								<path
+									d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+							</svg> <span>View Site</span></a>
+						</div>
+						<div class="modal__text">
+							<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+							<p>Technologies used: HTML, CSS, JS.</p>
+						</div>
+						<div class="modal__text-descr">
+							<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+							</p>
+							<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+							<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+							<p>—   Animation on hover with the mouse.</p>
+							<p>—   Burger menu in the mobile version of the site.</p>
+							<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+							<p>—   Several different non-standard sliders.</p>
+							<p>—   Autoplay slider after a certain time.</p>
+							<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+							<p>—   Decorative elements in the form of text using special css properties.</p>
+							<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+							<p>—   Mini preview of one of the sliders</p>
+							<p>—   Call order form with name, phone number and consent validation.</p>
+							<p>—   Video connection.</p>
+							<p>—   Extended form with full validation of name, phone, email, consent.</p>
+							<p>—   Connecting a card with the address of the company.</p>
+							<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+							<p>The layout was provided in Figma.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="30"><button
+				class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+			<div class="modal__content"><a href="#" class="modal__image" target="_blank">
+					<picture>
+						<source srcset="img/work/go-club.webp" type="image/webp"><img loading="lazy"
+							src="img/work/go-club.png" alt="go-club">
+					</picture>
+				</a>
+				<div class="modal__box">
+					<div class="modal__row">
+						<h3 class="modal__title">Go Club</h3>
+						<p class="modal__descr">Landing</p>
+						<p class="modal__descr">GO game club website</p>
+					</div><a href="#" class="modal__link" target="_blank"><svg width="15"
+							height="15" viewBox="0 0 15 15">
+							<path
+								d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+						</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="31"><button
+				class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+			<div class="modal__content"><a href="#" class="modal__image"
+					target="_blank">
+					<picture>
+						<source srcset="img/work/goldystore.webp" type="image/webp"><img loading="lazy"
+							src="img/work/goldystore.jpg" alt="goldystore">
+					</picture>
+				</a>
+				<div class="modal__box">
+					<div class="modal__row">
+						<h3 class="modal__title">GoldyStore</h3>
+						<p class="modal__descr">online store</p>
+						<p class="modal__descr">jewelry store</p>
+					</div><a href="#" class="modal__link" target="_blank"><svg
+							width="15" height="15" viewBox="0 0 15 15">
+							<path
+								d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+						</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="29"><button
+				class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+			<div class="modal__content"><a href="#" class="modal__image"
+					target="_blank">
+					<picture>
+						<source srcset="img/work/megakorm.webp" type="image/webp"><img loading="lazy"
+							src="img/work/megakorm.jpg" alt="megakorm">
+					</picture>
+				</a>
+				<div class="modal__box">
+					<div class="modal__row">
+						<h3 class="modal__title">Megakorm</h3>
+						<p class="modal__descr">Corporate website</p>
+						<p class="modal__descr">Animal Food</p>
+					</div><a href="#" class="modal__link" target="_blank"><svg
+							width="15" height="15" viewBox="0 0 15 15">
+							<path
+								d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+						</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="27"><button
+				class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+			<div class="modal__content"><a href="#" class="modal__image"
+					target="_blank">
+					<picture>
+						<source srcset="img/work/Tzeezotje.webp" type="image/webp"><img loading="lazy"
+							src="img/work/Tzeezotje.jpg" alt="Tzeezotje">
+					</picture>
+				</a>
+				<div class="modal__box">
+					<div class="modal__row">
+						<h3 class="modal__title">Tzeezotje</h3>
+						<p class="modal__descr">Landing</p>
+						<p class="modal__descr">Restaurant</p>
+					</div><a href="#" class="modal__link" target="_blank"><svg
+							width="15" height="15" viewBox="0 0 15 15">
+							<path
+								d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+						</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="25"><button
+				class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+			<div class="modal__content"><a href="#" class="modal__image"
+					target="_blank">
+					<picture>
+						<source srcset="img/work/sportmoda.webp" type="image/webp"><img loading="lazy"
+							src="img/work/sportmoda.jpg" alt="sportmoda">
+					</picture>
+				</a>
+				<div class="modal__box">
+					<div class="modal__row">
+						<h3 class="modal__title">Sportmoda</h3>
+						<p class="modal__descr">Internet shop</p>
+						<p class="modal__descr">sporting goods</p>
+					</div><a href="#" class="modal__link" target="_blank"><svg
+							width="15" height="15" viewBox="0 0 15 15">
+							<path
+								d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+						</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="24"><button
+				class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+			<div class="modal__content"><a href="#" class="modal__image"
+					target="_blank">
+					<picture>
+						<source srcset="img/work/UrbanRacers.webp" type="image/webp"><img loading="lazy"
+							src="img/work/UrbanRacers.jpg" alt="UrbanRacers">
+					</picture>
+				</a>
+				<div class="modal__box">
+					<div class="modal__row">
+						<h3 class="modal__title">Urban Racers</h3>
+						<p class="modal__descr">Online autotuning store</p>
+					</div><a href="#" class="modal__link"
+						target="_blank"><svg width="15" height="15" viewBox="0 0 15 15">
+							<path
+								d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+						</svg> <span>View Site</span></a>
+					</div>
+					<div class="modal__text">
+						<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+						<p>Technologies used: HTML, CSS, JS.</p>
+					</div>
+					<div class="modal__text-descr">
+						<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+						</p>
+						<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+						<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+						<p>—   Animation on hover with the mouse.</p>
+						<p>—   Burger menu in the mobile version of the site.</p>
+						<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+						<p>—   Several different non-standard sliders.</p>
+						<p>—   Autoplay slider after a certain time.</p>
+						<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+						<p>—   Decorative elements in the form of text using special css properties.</p>
+						<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+						<p>—   Mini preview of one of the sliders</p>
+						<p>—   Call order form with name, phone number and consent validation.</p>
+						<p>—   Video connection.</p>
+						<p>—   Extended form with full validation of name, phone, email, consent.</p>
+						<p>—   Connecting a card with the address of the company.</p>
+						<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+						<p>The layout was provided in Figma.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="1"><button
+					class="btn-reset modal-close" aria-label="Закрыть модальное окно"></button>
+				<div class="modal__content"><a href="#" class="modal__image"
+						target="_blank">
+						<picture>
+							<source srcset="img/work/Body-time.webp" type="image/webp"><img loading="lazy"
+								src="img/work/Body-time.jpg" alt="Body-time">
+						</picture>
+					</a>
+					<div class="modal__box">
+						<div class="modal__row">
+							<h3 class="modal__title">Body Time</h3>
+							<p class="modal__descr">Landing</p>
+						</div><a href="#" class="modal__link" target="_blank"><svg
+								width="15" height="15" viewBox="0 0 15 15">
+								<path
+									d="M6.554,9.639a.5.5,0,0,0,.707.707L9.928,7.669a.25.25,0,0,0,0-.354h0L7.261,4.639a.5.5,0,0,0-.707.707L8.2,7H1.5a.5.5,0,0,0,0,1H8.2ZM12,1H5.5a.5.5,0,0,0,0,1h6a.5.5,0,0,1,.5.5v10a.5.5,0,0,1-.5.5H5.25a.5.5,0,0,0,0,1H12a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1Z" />
+							</svg> <span>View Site</span></a>
+						</div>
+						<div class="modal__text">
+							<p>Project complexity: complex (many small details, many non-standard blocks and solutions)</p>
+							<p>Technologies used: HTML, CSS, JS.</p>
+						</div>
+						<div class="modal__text-descr">
+							<p>Fully adaptive layout for all screen sizes (including very large ones) and gadgets.
+							</p>
+							<p>—   Optimized layout (load speed at pagespeed 80+).</p>
+							<p>—   Optimization of images and maps - to speed up the loading of the site.</p>
+							<p>—   Animation on hover with the mouse.</p>
+							<p>—   Burger menu in the mobile version of the site.</p>
+							<p>—   Moving blocks to different parts of the menu, depending on the screen.</p>
+							<p>—   Several different non-standard sliders.</p>
+							<p>—   Autoplay slider after a certain time.</p>
+							<p>—   Custom navigation for sliders: buttons, scrollbar, progressbar, pagination frame countdown.</p>
+							<p>—   Decorative elements in the form of text using special css properties.</p>
+							<p>—   Decorative elements in the form of background gradients using special css properties.</p>
+							<p>—   Mini preview of one of the sliders</p>
+							<p>—   Call order form with name, phone number and consent validation.</p>
+							<p>—   Video connection.</p>
+							<p>—   Extended form with full validation of name, phone, email, consent.</p>
+							<p>—   Connecting a card with the address of the company.</p>
+							<p>The layout used Pixel perfect, Gulp, Webpack.</p>
+							<p>The layout was provided in Figma.</p>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+	</div>
+</body>
+
+</html>
